@@ -17,6 +17,6 @@ public class FractionSum {
                 }
             }
             min -= 1;
-        } //ÅëºÐÇÏ±â
+        } //í†µë¶„í•˜ê¸°
     }
 }
