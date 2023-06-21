@@ -15,12 +15,10 @@ public class ChangeWords {
     static int answer = 0;
     public int solution(String begin, String target, String[] words) {
         visited =  new boolean[words.length];
-        for(int i=0; i<words.length; i++){
-            if(Arrays.asList(words).contains(target)){
-                bfs(begin, target, words);
-            }else{
-                return 0;
-            }
+        if(Arrays.asList(words).contains(target)){
+        	bfs(begin, target, words);
+        }else{
+        	return 0;
         }
         return answer;
     }
