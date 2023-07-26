@@ -9,7 +9,7 @@ public class WorkingTime {
 	        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	        
 	        int tot = 0;
-	        
+	        tot = cal(tot, br);
 	        System.out.print(tot);
 
 	    }
